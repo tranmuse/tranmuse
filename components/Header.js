@@ -4,14 +4,14 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="flex items-center justify-center">
-      <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center">
           <Link href="/">
             <Image
               src="/logo/logo1.png"
               alt="TranMuse logo"
-              width={120}
-              height={120}
+              width={70}
+              height={70}
             />
           </Link>
           <nav className="flex items-center space-x-4 mt-4">

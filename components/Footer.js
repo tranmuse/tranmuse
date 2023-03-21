@@ -1,4 +1,11 @@
-import { FaTwitter, FaInstagram, FaDeviantart, FaGithub } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaInstagram,
+  FaDeviantart,
+  FaGithub,
+  FaPinterest,
+} from "react-icons/fa";
+import { SiRedbubble } from "react-icons/si";
 
 function Footer() {
   return (
@@ -23,6 +30,14 @@ function Footer() {
             <FaInstagram className="w-6 h-6" />
           </a>
           <a
+            href="https://www.pinterest.com/tranmuse/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mr-4"
+          >
+            <FaPinterest className="w-6 h-6" />
+          </a>
+          <a
             href="https://www.deviantart.com/tranmuse"
             target="_blank"
             rel="noopener noreferrer"
@@ -37,6 +52,14 @@ function Footer() {
             className="mr-4"
           >
             <FaGithub className="w-6 h-6" />
+          </a>
+          <a
+            href="https://www.tranmuse.redbubble.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mr-4"
+          >
+            <SiRedbubble className="w-6 h-6" />
           </a>
         </div>
       </div>

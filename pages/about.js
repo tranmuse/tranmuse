@@ -5,13 +5,13 @@ export default function About() {
     <Layout>
       <div className="gap-4 max-w-4xl mx-auto">
         <h1>About Me</h1>
-        <Image
+        {/* <Image
           className="w-80 rounded-full shadow-lg mx-auto my-4"
           src="/about.png"
           alt="About TranMuse image"
           width={500}
           height={500}
-        />
+        /> */}
         <div className="w-full"></div>
 
         <div className="text-lg col-span-2">

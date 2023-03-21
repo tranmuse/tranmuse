@@ -5,12 +5,11 @@ const CollectionList = ({ collections }) => {
       {collections &&
         collections.map((collection) => (
           <Link href={`/collections/${collection.id}`} key={collection.id}>
-            <div className="bg-white rounded-lg overflow-hidden shadow-md my-4">
+            <div className="h-full bg-white rounded-lg overflow-hidden shadow-md my-4">
               <img
                 src={collection.thumbnail}
                 alt={collection.name}
                 className="h-72 w-full object-cover"
-                style={{ maxHeight: "250px" }}
               />
               <div className="p-4">
                 <h2 className="text-lg font-semibold mb-2">
