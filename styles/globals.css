@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h1 {
+    @apply text-4xl text-center font-bold uppercase tracking-normal my-2
+}
+p{
+    @apply my-3
+}
+/* Masonry */
+.my-masonry-grid {
+    @apply flex ml-[-30px] w-auto;
+}
+  
+.my-masonry-grid_column {
+    @apply pl-2 bg-clip-padding mb-4;
+}
+  
