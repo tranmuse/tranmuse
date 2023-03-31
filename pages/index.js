@@ -101,7 +101,7 @@ export default function Home() {
 
                       <div className="flex justify-center">
                         <a
-                          href="/kalimba-tabs"
+                          href="https://www.pinterest.com/tranmuse/kalimba-tabs/"
                           className="my-2 bg-black text-white p-2 border-2 border-black hover:bg-white hover:text-black text-sm font-semibold uppercase"
                         >
                           View project
@@ -112,8 +112,8 @@ export default function Home() {
                   <div className="w-full md:w-96 bg-white border-4 border-black overflow-hidden flex justify-center flex-col mx-4 mb-8">
                     <div className="p-4">
                       <img
-                        src="ai-art.svg"
-                        alt="AI Art"
+                        src="pod.svg"
+                        alt="Print on Demand"
                         className="h-64 w-64 mx-auto"
                       />
                       <h3 className="text-2xl font-bold mb-2 text-center">
@@ -130,7 +130,7 @@ export default function Home() {
                       </div>
                       <div className="flex justify-center">
                         <a
-                          href="/aiart"
+                          href="https://www.redbubble.com/people/TranMuse/shop?asc=u"
                           className="my-2 bg-black text-white p-2 border-2 border-black hover:bg-white hover:text-black text-sm font-semibold uppercase "
                         >
                           View project
@@ -362,7 +362,58 @@ export default function Home() {
                 <h2 className="text-white text-4xl uppercase text-center font-bold mb-12">
                   Contact Me
                 </h2>
-                <ContactForm />
+                <form
+                  className="flex flex-col mx-auto w-full max-w-2xl"
+                  action="https://formsubmit.co/tranmuse@gmail.com"
+                  method="POST"
+                >
+                  <label htmlFor="name" className="text-white font-bold py-4">
+                    Name
+                  </label>
+                  <input
+                    id="text"
+                    name="name"
+                    type="text"
+                    required
+                    className="py-2 px-4 bg-gray-50 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+                  />
+
+                  <label htmlFor="email" className="text-white font-bold py-4">
+                    Email
+                  </label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    className="py-2 px-4 bg-gray-50 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+                    required
+                  />
+
+                  <label
+                    htmlFor="message"
+                    className="text-white font-bold py-4"
+                  >
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    className="py-2 px-4 bg-gray-50 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+                  ></textarea>
+
+                  <button
+                    type="submit"
+                    className="mt-12 py-2 px-4 uppercase text-white font-bold border-2 border-white rounded-md hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50"
+                  >
+                    Send
+                  </button>
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://www.tranmuse.com/sent"
+                  ></input>
+                </form>
               </div>
             </div>
           </div>
