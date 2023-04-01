@@ -24,8 +24,9 @@ export default function Home() {
         <main className="flex-1 flex flex-col">
           {/* About Section */}
           <div class="divide-y-4 divide-black">
-            <div className="pt-0 md:pb-16s h-[12rem] md:h-[32rem] flex justify-center items-center">
-              <div className="container mx-auto px-4 max-w-5xl text-center md:bg-black md:text-white text-2xl md:text-6xl py-4">
+            <div className="flex flex-col items-center justify-center">
+              <img src="/girl.png" className="object-cover h-96 w-96" />
+              <div className="container mx-auto my-16 p-4 max-w-4xl text-center bg-black text-white text-2xl md:text-5xl  ">
                 <TypeAnimation
                   sequence={[
                     "Hi, I'm TranMuse.",

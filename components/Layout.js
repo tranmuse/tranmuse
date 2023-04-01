@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="min-h-screen py-16">{children}</main>
+      <main className="min-h-screen">{children}</main>
       <Footer />
       {showScroll && (
         <div className="fixed bottom-8 right-8 cursor-pointer">
